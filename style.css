@@ -25,6 +25,10 @@ h1 {
     font-size: 6rem;
 }
 
+h2 {
+    font-size: 4rem;
+}
+
 h3 {
     font-size: 3rem;
     margin: 3% 0;
@@ -39,5 +43,23 @@ h3 {
     border: 2px solid var(--cor-fonte);
     display: inline-block;
     padding: 1rem;
-    margin: 2% 0;
+    margin: 15%;
 }
+
+button {
+    background-color: var(--fundo);
+    color: var(--cor-fonte);
+    border: 2px solid var(--cor-fonte);
+    padding: 2rem;
+    font-size: 2rem;
+    cursor: cell;
+    font-family: var(--fonte);
+    transition: 500ms;
+}
+
+button:hover {
+    background-color: var(--cor-fonte);
+    color: var(--fundo);
+    border-color: var(--fundo);
+}
+

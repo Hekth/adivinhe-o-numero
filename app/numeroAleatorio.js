@@ -8,5 +8,7 @@ function gerarNumeroAleatorio () {
     return parseInt(Math.random() * maiorValor + 1);
 }
 
+const numeroAleatorio = gerarNumeroAleatorio();
+console.log(numeroAleatorio);
 spanMenorValor.innerText = menorValor;
 spanMaiorValor.innerText = maiorValor;

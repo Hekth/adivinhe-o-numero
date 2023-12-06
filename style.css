@@ -1,0 +1,43 @@
+@import url(estilos/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+:root {
+    --fundo: #352F44;
+    --cor-fonte: #FAF0E6;
+    --fonte: 'DotGothic16', sans-serif;
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--cor-fonte);
+    font-family: var(--fonte);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h3 {
+    font-size: 3rem;
+    margin: 3% 0;
+}
+
+.mensagem {
+   font-size: 1.5rem;
+}
+
+.box {
+    font-size: 4rem;
+    border: 2px solid var(--cor-fonte);
+    display: inline-block;
+    padding: 1rem;
+    margin: 2% 0;
+}
